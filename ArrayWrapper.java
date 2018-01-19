@@ -56,11 +56,8 @@ public class ArrayWrapper {
             } else {
                 newArray[newIndex] = array[i];
                 newIndex++;
-                
             }
         }
         this.array = newArray;
-
-
     }
 }
